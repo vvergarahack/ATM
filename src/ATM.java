@@ -38,7 +38,7 @@ public class ATM {
 					+ "VIEW BALANCE\n4: EXIT");
 			int option = in.nextInt();
 			if(option == 1) { // deposit
-				System.out.println("\nHow much would you like to depsoit?");
+				System.out.println("\nHow much would you like to deposit?");
 				deposit = in.nextDouble();
 				if(deposit>0) {
 					act.deposit(deposit);
